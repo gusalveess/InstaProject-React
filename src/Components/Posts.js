@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function MenuPosts(props) {
-  const state = { curtidos: false }
 
   const [liked, setLiked] = useState(false);
   const [icon, setIcon] = useState(<ion-icon name="heart-outline"></ion-icon>);
